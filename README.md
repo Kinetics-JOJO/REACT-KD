@@ -50,6 +50,6 @@ To enable multi-modal knowledge distillation and external validation in hepatoce
 
 | Dataset            | Role                  | Modality      | Grade Label | Notes                              |
 |--------------------|-----------------------|---------------|-------------|-------------------------------------|
-| HKSH PET/CT (priv) | Teacher training      | PET + CT      | ✅ Yes      | Main supervised distillation source |
+| HKH PET/CT (priv) | Teacher training      | PET + CT      | ✅ Yes      | Main supervised distillation source |
 | LiTS17             | Teacher training      | CT only       | ❌ No       | Used for segmentation + graph prep  |
 | HCC-TACE-Seg       | External validation   | CT only       | ✅ Yes      | No training, validation only        |
