@@ -22,7 +22,7 @@ To enable multi-modal knowledge distillation and external validation in hepatoce
   - PET tracers: ¹⁸F-FDG and ¹¹C-Acetate  
   - Co-registered PET + CT volumes (`512 × 512 × 148`)  
 - **Labels:**  
-  - Tumor grade (Edmondson–Steiner classification: 3 classes)  
+  - Tumor Pathology grade (Edmondson–Steiner classification: 3 classes(Well differentiated, Moderately differentiated, Poorly differentiated))
   - Clinical metadata: AFP, age, sex, hepatitis status
 
 ---
@@ -40,7 +40,7 @@ To enable multi-modal knowledge distillation and external validation in hepatoce
 
 ### 🧪 3. HCC-TACE-Seg Dataset (Public)
 - **Scans:** 105 multiphasic contrast-enhanced CT scans  
-- **Annotations:** Expert segmentation + histopathological tumor grade  
+- **Annotations:** Expert segmentation + histopathological tumor grade (3 classes: Well differentiated, Moderately differentiated, Poorly differentiated)
 - **Context:** Real-world TACE treatment under standard imaging protocols  
 - **Usage:** External validation only
 
