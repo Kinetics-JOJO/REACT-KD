@@ -14,8 +14,8 @@ Region-Aware Cross-modal Topological Knowledge Distillation for Interpretable Me
 
 To enable multi-modal knowledge distillation and external validation in hepatocellular carcinoma (HCC) tumor grade classification, we utilized a diverse dataset composed of:
 
-### 🏥 1. HKSH HCC Cohort (Private)
-- **Source:** Hong Kong Sanatorium and Hospital (HKSH)  
+### 🏥 1. Hospital HCC Cohort (Private)
+- **Source:** In house-HK SAR population
 - **Period:** January 2004 – December 2024  
 - **Patients:** 97 HCC patients  
 - **Imaging:** 194 dual-tracer PET/CT scan pairs  
