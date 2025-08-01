@@ -17,7 +17,7 @@ To enable multi-modal knowledge distillation and external validation in hepatoce
 ### 🏥 1. HKSH HCC Cohort (Private)
 - **Source:** Hong Kong Sanatorium and Hospital (HKSH)  
 - **Period:** January 2004 – December 2024  
-- **Patients:** 93 HCC patients  
+- **Patients:** 97 HCC patients  
 - **Imaging:** 194 dual-tracer PET/CT scan pairs  
   - PET tracers: ¹⁸F-FDG and ¹¹C-Acetate  
   - Co-registered PET + CT volumes (`512 × 512 × 148`)  
@@ -51,5 +51,5 @@ To enable multi-modal knowledge distillation and external validation in hepatoce
 | Dataset            | Role                  | Modality      | Grade Label | Notes                              |
 |--------------------|-----------------------|---------------|-------------|-------------------------------------|
 | HKSH PET/CT (priv) | Teacher training      | PET + CT      | ✅ Yes      | Main supervised distillation source |
-| LiTS17             | Encoder pretraining   | CT only       | ❌ No       | Used for segmentation + graph prep  |
+| LiTS17             | Teacher training      | CT only       | ❌ No       | Used for segmentation + graph prep  |
 | HCC-TACE-Seg       | External validation   | CT only       | ✅ Yes      | No training, validation only        |
