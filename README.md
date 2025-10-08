@@ -6,7 +6,7 @@ Region-Aware Cross-modal Topological Knowledge Distillation for Interpretable Me
 *The current pipeline reflects our initial implementation. LoRA-based components are excluded due to space limitations. A LoRA-enabled student model is provided for reference, and future work will explore LoRA-C for robust CNN vs Transformer adaptation.*
 
 ## Citation
-If this code or our benchmark is useful for your research, please consider citing our paper:
+If this code or our framework is useful for your research, please consider citing our paper:
 ```bibtex
 @misc{chen2025reactkdregionawarecrossmodaltopological,
       title={REACT-KD: Region-Aware Cross-modal Topological Knowledge Distillation for Interpretable Medical Image Classification}, 
