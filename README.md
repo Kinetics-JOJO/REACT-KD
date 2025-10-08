@@ -1,5 +1,5 @@
-# REACT-KD
-Region-Aware Cross-modal Topological Knowledge Distillation for Interpretable Medical Image Classification[BIBM 2025 Regular]
+# REACT-KD[BIBM 2025 Regular]
+Region-Aware Cross-modal Topological Knowledge Distillation for Interpretable Medical Image Classification
 
 ## 📌 Pipeline Overview
 ![Pipeline](Img/Pipnline_github.png)
