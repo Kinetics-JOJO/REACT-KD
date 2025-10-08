@@ -1,9 +1,24 @@
 # REACT-KD
-Region-Aware Cross-modal Topological Knowledge Distillation for Interpretable Medical Image Classification
+Region-Aware Cross-modal Topological Knowledge Distillation for Interpretable Medical Image Classification[BIBM 2025 Regular]
 
 ## 📌 Pipeline Overview
 ![Pipeline](Img/Pipnline_github.png)
 *The current pipeline reflects our initial implementation. LoRA-based components are excluded due to space limitations. A LoRA-enabled student model is provided for reference, and future work will explore LoRA-C for robust CNN vs Transformer adaptation.*
+
+## Citation
+If this code or our benchmark is useful for your research, please consider citing our paper:
+```bibtex
+@misc{chen2025reactkdregionawarecrossmodaltopological,
+      title={REACT-KD: Region-Aware Cross-modal Topological Knowledge Distillation for Interpretable Medical Image Classification}, 
+      author={Hongzhao Chen and Hexiao Ding and Yufeng Jiang and Jing Lan and Ka Chun Li and Gerald W. Y. Cheng and Sam Ng and Chi Lai Ho and Jing Cai and Liang-ting Lin and Jung Sun Yoo},
+      year={2025},
+      eprint={2508.02104},
+      archivePrefix={arXiv},
+      primaryClass={eess.IV},
+      url={https://arxiv.org/abs/2508.02104}, 
+}
+```
+
 ## 🧠 Teacher Model
 ![Teacher Encoder](Img/SW-Encoder.png)
 
