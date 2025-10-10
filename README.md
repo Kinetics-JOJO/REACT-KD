@@ -1,6 +1,6 @@
 # REACT-KD[BIBM 2025 Regular]
 Region-Aware Cross-modal Topological Knowledge Distillation for Interpretable Medical Image Classification
-##📄Preprint version
+## 📄Preprint version
 Our paper has been accepted by BIBM 2025 as a regular paper: <a href="https://arxiv.org/abs/2508.02104" target="_blank">arXiv</a>
 ## 📌 Pipeline Overview
 ![Pipeline](Img/Pipnline_github.png)
