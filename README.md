@@ -2,6 +2,8 @@
 Region-Aware Cross-modal Topological Knowledge Distillation for Interpretable Medical Image Classification
 ## 📄Preprint version
 Our paper has been accepted by BIBM 2025 as a regular paper: <a href="https://arxiv.org/abs/2508.02104" target="_blank">REACT-KD:Region-Aware Cross-modal Topological Knowledge Distillation for Interpretable Medical Image Classification</a>
+<a href="https://arxiv.org/abs/2508.02104" alt="arXiv">
+    <img src="https://img.shields.io/badge/arXiv-2405.07992-b31b1b.svg?style=flat" /></a>
 ## 📌 Pipeline Overview
 ![Pipeline](Img/Pipnline_github.png)
 *The current pipeline reflects our initial implementation. LoRA-based components are excluded due to space limitations. A LoRA-enabled student model is provided for reference, and future work will explore LoRA-C for robust CNN vs Transformer adaptation.*
